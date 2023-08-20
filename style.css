@@ -1,0 +1,34 @@
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+
+.maindiv{
+    display: grid;
+    grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+                          'b1 b1 b1 c1 c1 c1'
+                          'd1 d1 d1 e1 e1 e1';
+    text-align: center;
+    background-color: yellow;
+}
+
+div{
+    border: 2px solid black;
+    background-color: blue;
+}
+
+.image{
+    width: 50%;
+    height: 300px;
+    background-image: url("photo.png");
+    background-size:cover;
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+
+}
+
+
+

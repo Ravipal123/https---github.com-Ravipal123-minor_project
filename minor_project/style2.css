@@ -1,0 +1,259 @@
+.container{
+    background: linear-gradient(to right, orange, white, green);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px rgb(250, 247, 247);
+    box-shadow: 3px 3px;   
+    height: 55px;
+    position: sticky;
+}
+
+.container:hover{
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    font-weight: 500;
+}
+
+.box{
+    margin: 40px;
+    background-color: brown;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 5px black;
+}
+
+.box:hover{
+    background-color: rgb(199, 79, 79);
+}
+
+.box img{
+    padding: 8px;
+}
+
+#border{
+    border: 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box h2{
+    text-shadow: 1px 1px white; 
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.box p{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.box a{
+    padding-left: 50px;
+    
+}
+
+.box1{
+    margin-left: 240px;
+    background-color: brown;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 5px black;
+}
+
+.box1:hover{
+    background-color: rgb(199, 79, 79);
+}
+
+.box1 img{
+    padding: 8px;
+}
+
+#border1{
+    border: 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box1 h2{
+    text-shadow: 1px 1px white; 
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.box1 p{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.box1 a{
+    padding-left: 50px;
+    
+}
+
+.box2{
+    margin: 40px;
+    background-color: brown;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 5px black;
+}
+
+.box2:hover{
+    background-color: rgb(199, 79, 79);
+}
+
+.box2 img{
+    padding: 8px;
+}
+
+#border2{
+    border: 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box2 h2{
+    text-shadow: 1px 1px white; 
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.box2 p{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.box2 a{
+    padding-left: 50px;
+    
+}
+
+.box3{
+    margin-left: 240px;
+    background-color: brown;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 5px black;
+}
+
+.box3:hover{
+    background-color: rgb(199, 79, 79);
+}
+
+.box3 img{
+    padding: 8px;
+}
+
+#border3{
+    border: 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box3 h2{
+    text-shadow: 1px 1px white; 
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.box3 p{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.box3 a{
+    padding-left: 50px;
+    
+}
+
+.box4{
+    margin: 40px;
+    background-color: brown;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    box-shadow: 5px 5px black;
+}
+
+.box4:hover{
+    background-color: rgb(199, 79, 79);
+}
+
+.box4 img{
+    padding: 8px;
+    width: 400px;
+}
+
+#border4{
+    border: 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box4 h2{
+    text-shadow: 1px 1px white; 
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.box4 p{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.box4 a{
+    padding-left: 50px;
+    
+}
+
+.box5{
+    background: linear-gradient(to right, orange, white, green);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px rgb(250, 247, 247);  
+    height: 55px;
+    width: 100%;
+    animation: scroll;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.box6{
+    text-align: center;
+}
+
+.box7{
+    height: 150px;
+    background: linear-gradient(orange, white, green);
+    padding-left: 825px;
+    font-size: 30px;
+}
+
+.box7 p{
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 90px;
+    padding-top: 0px;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100%));
+    }
+    
+}
